@@ -24,7 +24,7 @@ class Tax extends CartCondition
     {
         $label = $this->taxInclusive ? "{$this->taxRateLabel}% ".lang('igniter.cart::default.text_vat_included') : "{$this->taxRateLabel}%";
 
-        return sprintf(lang($this->label), $label);
+        return lang($this->label);
     }
 
     public function onLoad()

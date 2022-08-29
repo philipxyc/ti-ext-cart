@@ -20,7 +20,7 @@ return [
     'text_coupon' => 'Coupon [%s]',
     'text_tip' => 'Tip',
     'text_payment_fee' => 'Payment Fee',
-    'text_vat' => 'VAT [%s]',
+    'text_vat' => 'Tax & Fee',
     'text_vat_included' => 'included',
     'text_order_total' => 'Order Total',
     'text_menu_quantity' => 'Menu Quantity',
